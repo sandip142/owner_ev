@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250508347403",
+    "project_id": "charging-station-57b89",
+    "storage_bucket": "charging-station-57b89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250508347403:android:da7e133b904efa61495f0e",
+        "android_client_info": {
+          "package_name": "com.example.main_evcharge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1U6S-lrHTBMttmnlAhKBhvuVOAJMGpgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250508347403:android:b342e01fe5431f35495f0e",
+        "android_client_info": {
+          "package_name": "com.example.owner_ev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1U6S-lrHTBMttmnlAhKBhvuVOAJMGpgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
