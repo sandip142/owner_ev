@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:owner_ev/Screens/add_evstation.dart';
 import 'package:owner_ev/Screens/profile_screen.dart';
+import 'package:owner_ev/Screens/show_data.dart';
 
 class BottomBarScreen extends StatefulWidget {
   final String uuid;
@@ -18,6 +19,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
   Widget build(BuildContext context) {
     final List<Widget> pages = [
       StationForm(userUuid: widget.uuid),
+      OwnerBookingScreen(userUuid:widget.uuid),
       const Center(child: Text("Profile Page", style: TextStyle(fontSize: 20))),
     ];
 
@@ -27,7 +29,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.of(context).pushReplacement(
+              Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) => const ProfileScreen(),
                 ),
